@@ -22,6 +22,10 @@ $(function() {
           });
      }
        
-        
+        function updateroomlist(rooms){
+            rooms.forEach(function(room) {
+                addRoom(room);
+              });
+        }
     }
 });

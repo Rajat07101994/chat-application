@@ -23,8 +23,8 @@ module.exports.routes = {
 
      'GET /': { view: 'login' },
     //'GET /': 'HomepageController.homepage',
-    'POST /register': { controller: 'HomepageController', action: 'create' },
-    'POST /login': { controller: 'HomepageController', action: 'login' },
+    'POST /register': { controller: 'UserController', action: 'create' },
+    'POST /login': { controller: 'UserController', action: 'login' },
     'POST /room1': { controller: 'RoomController', action: 'create' },
     
     
